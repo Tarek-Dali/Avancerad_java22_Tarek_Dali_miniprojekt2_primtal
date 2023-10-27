@@ -8,6 +8,7 @@ public class PrimeViewer {
 	private int start = 0;
 	private int finish = 0;
 	
+	// Prompts user to enter two positive numbers (start & finish)
 	public void viewer() {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Welcome to prime numbers calculator. You can find prime numbers between two numbers as long as they are positive.\nStart with the lower number.");

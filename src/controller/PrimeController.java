@@ -15,6 +15,7 @@ public class PrimeController {
 
 	}
 
+	// Gets start and finish from PrimeViewer and calls upon showPrimes method from PrimeModel class
 	public void operation() {
 		int start;
 		int finish;
